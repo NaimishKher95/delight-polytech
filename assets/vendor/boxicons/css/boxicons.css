@@ -964,12 +964,6 @@
   .bxl-google-cloud:before {
     content: "\e93d";
   }
-  .bxl-google-plus:before {
-    content: "\e93e";
-  }
-  .bxl-google-plus-circle:before {
-    content: "\e93f";
-  }
   .bxl-html5:before {
     content: "\e940";
   }
@@ -1110,9 +1104,6 @@
   }
   .bxl-sketch:before {
     content: "\e96e";
-  }
-  .bxl-skype:before {
-    content: "\e96f";
   }
   .bxl-slack:before {
     content: "\e970";
