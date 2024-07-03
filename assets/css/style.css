@@ -109,7 +109,8 @@ ul {
   margin-left: 15px;
 }
 
-#topbar .social-links a {
+#topbar .social-links a, #topbar a svg path {
+  fill: #6f6f6f;
   color: #6f6f6f;
   padding: 4px 12px;
   display: inline-block;
@@ -117,7 +118,8 @@ ul {
   transition: 0.3s;
 }
 
-#topbar .social-links a:hover {
+#topbar .social-links a:hover, #topbar a:hover svg path {
+  fill:#0073ab;
   color: #0073ab;
 }
 
@@ -1529,7 +1531,8 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a {
+#footer .social-links a, a svg path {
+  fill: #fff;
   font-size: 18px;
   display: inline-block;
   background: #0073ab;
@@ -1544,7 +1547,8 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+#footer .social-links a:hover, #footer a:hover svg path {
+  fill:#0073ab;
   background-color: #fff;
   color: #0073ab;
   text-decoration: none;
